@@ -1,0 +1,25 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Jogo da Cobrinha</title>
+</head>
+<body>
+	<h1>Snake Game</h1>
+
+
+	<!-- Sons do jogo !-->
+	<audio src="sounds/snake_collision.mp3" preload="auto" id="somColisao"></audio>
+	<audio src="sounds/snake_eating.mp3" preload="auto" id="somComendo"></audio>
+	<audio src="sounds/snake_music.wav" preload="auto" id="somMenu"></audio>
+	<audio src="sounds/snake_back.mp3" preload="auto" id="somFundo"></audio>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
